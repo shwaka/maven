@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: react
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: generate index.html
+      run: python3 generate_directory_index_caddystyle.py -r repository
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets. ACTIONS_DEPLOY_KEY }}
+        publish_dir: ./repository
