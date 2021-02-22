@@ -1,3 +1,5 @@
+[published page](https://shwaka.github.io/maven/)
+
 ## Usage
 In `build.gradle.kts`:
 ```kotlin
