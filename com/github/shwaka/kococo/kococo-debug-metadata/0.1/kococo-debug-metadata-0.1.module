@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kococo-debug-native/0.1/kococo-debug-native-0.1.module",
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-debug-native",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "3kcua64d7fclhelwtxr7e6eecm"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-debug-metadata-0.1-all.jar",
+          "url": "kococo-debug-metadata-0.1-all.jar",
+          "size": 3714,
+          "sha512": "c0cf45216051c06f895cddf4502552ab13b22307ec7f2ad43a7e602a5085a3055ea596ac7c5021e200c7dade6f6bbb99bf2ce8788c3dd350f325cd7a42a7077f",
+          "sha256": "282f1ca7d0d3753a13f12efee47fc77ae3674e14641d024e74dcd6fdaf652e75",
+          "sha1": "acaad04e6a6eea773f45e4a6d329086d74d0deeb",
+          "md5": "2846b636667fb3641308f6723dedc5a6"
+        }
+      ]
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-debug-metadata-0.1.jar",
+          "url": "kococo-debug-metadata-0.1.jar",
+          "size": 1202,
+          "sha512": "f37155f74c2c301c7d607d5cbfe814123972d1248e1024f933d523d78d7d2e4d8200db0efc923194f6ed50c10ab1ae531f29f69275d91e3ae032c5a2235de5e8",
+          "sha256": "706cb3ca0165bdb8cdcdf020be7ea1a87f1e9b05b23c66438088601ed84eb3a7",
+          "sha1": "8dfe52ea26d12d6b28f47757adcc1ac39f82ea7b",
+          "md5": "5ddd49654d49346932636e1278e65bd7"
+        }
+      ]
+    }
+  ]
+}
