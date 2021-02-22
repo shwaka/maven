@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-mplib/0.1/example-mplib-0.1.module",
+    "group": "com.github.shwaka.example.mplib",
+    "module": "example-mplib",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "pp3eidij4nggxdkbjfset2nkoy"
+    }
+  },
+  "variants": [
+    {
+      "name": "native-api",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-mplib.klib",
+          "url": "example-mplib-native-0.1.klib",
+          "size": 6902,
+          "sha512": "eb42409f5df88ab8d79779804f391c10467db36d7f9453856330c9fbcdbde1d61da9a08d73e88054d05c858a56b0a4e206ad5b2bdc9e76fdf07aa9658388a030",
+          "sha256": "f63c09f0a61d0c86f20109be94d86b3958c954371c5bb9b9a8d0aeeb22878068",
+          "sha1": "3f323c61eb4ce3310e72c94b53c10f7b8f43b769",
+          "md5": "f1eb325ac07da1e2b77dc1266236794c"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../example-mplib-metadata/0.1/example-mplib-metadata-0.1.module",
+        "group": "com.github.shwaka.example.mplib",
+        "module": "example-mplib-metadata",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../example-mplib-metadata/0.1/example-mplib-metadata-0.1.module",
+        "group": "com.github.shwaka.example.mplib",
+        "module": "example-mplib-metadata",
+        "version": "0.1"
+      }
+    }
+  ]
+}
