@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../example-mplib/0.1/example-mplib-0.1.module",
+    "group": "com.github.shwaka.example.mplib",
+    "module": "example-mplib",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "pp3eidij4nggxdkbjfset2nkoy"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-mplib-jvm-0.1.jar",
+          "url": "example-mplib-jvm-0.1.jar",
+          "size": 2873,
+          "sha512": "acf71190d018028a083cd4579a6843f7aa3892eb15bdaa9f06fc55cc5f9ab94f9a888258d67490f38e3795044cd1c60cf14041efe95aa09345a33612587f5cae",
+          "sha256": "20f05d94828961e5ec6b4b7f2e2bcf4c6ac4d1154ca0d14a053136ec7ef27b02",
+          "sha1": "df6028bdda2c44043e8a2dd9b5b42a271c83c0b9",
+          "md5": "95957cc5be74d80d9c56f9e5af4233fe"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-mplib-jvm-0.1.jar",
+          "url": "example-mplib-jvm-0.1.jar",
+          "size": 2873,
+          "sha512": "acf71190d018028a083cd4579a6843f7aa3892eb15bdaa9f06fc55cc5f9ab94f9a888258d67490f38e3795044cd1c60cf14041efe95aa09345a33612587f5cae",
+          "sha256": "20f05d94828961e5ec6b4b7f2e2bcf4c6ac4d1154ca0d14a053136ec7ef27b02",
+          "sha1": "df6028bdda2c44043e8a2dd9b5b42a271c83c0b9",
+          "md5": "95957cc5be74d80d9c56f9e5af4233fe"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../example-mplib-metadata/0.1/example-mplib-metadata-0.1.module",
+        "group": "com.github.shwaka.example.mplib",
+        "module": "example-mplib-metadata",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../example-mplib-metadata/0.1/example-mplib-metadata-0.1.module",
+        "group": "com.github.shwaka.example.mplib",
+        "module": "example-mplib-metadata",
+        "version": "0.1"
+      }
+    }
+  ]
+}

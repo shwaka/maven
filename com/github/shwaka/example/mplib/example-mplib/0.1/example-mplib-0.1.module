@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.shwaka.example.mplib",
+    "module": "example-mplib",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "pp3eidij4nggxdkbjfset2nkoy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 10,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "example-mplib-0.1.jar",
+          "url": "example-mplib-0.1.jar",
+          "size": 261,
+          "sha512": "765ff2ff5c9317af8014c293f92f44101b08fe1a184cd397bee57a0059cac9330e779574a2501ecf0012af29f2a13fe52d74e312b82538daa40c21e2f729915b",
+          "sha256": "a7c996ae0194a603f985722de335cb606009133f78c62e2c828875107c6f9ade",
+          "sha1": "61659f25fc3775a35ac67e5cf0249c6f0f78efcd",
+          "md5": "eafd0ea0dc3805424e29dc3bdd5b6e3a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 10,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "example-mplib-0.1.jar",
+          "url": "example-mplib-0.1.jar",
+          "size": 261,
+          "sha512": "765ff2ff5c9317af8014c293f92f44101b08fe1a184cd397bee57a0059cac9330e779574a2501ecf0012af29f2a13fe52d74e312b82538daa40c21e2f729915b",
+          "sha256": "a7c996ae0194a603f985722de335cb606009133f78c62e2c828875107c6f9ade",
+          "sha1": "61659f25fc3775a35ac67e5cf0249c6f0f78efcd",
+          "md5": "eafd0ea0dc3805424e29dc3bdd5b6e3a"
+        }
+      ]
+    }
+  ]
+}
