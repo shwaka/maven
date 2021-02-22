@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-debug",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "3kcua64d7fclhelwtxr7e6eecm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsLegacy-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-js/0.1/kococo-debug-js-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsLegacy-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-js/0.1/kococo-debug-js-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsIr-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-js/0.1/kococo-debug-js-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsIr-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-js/0.1/kococo-debug-js-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-jvm/0.1/kococo-debug-jvm-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-jvm/0.1/kococo-debug-jvm-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-metadata/0.1/kococo-debug-metadata-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-metadata",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-metadata/0.1/kococo-debug-metadata-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-metadata",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "native-api",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kococo-debug-native/0.1/kococo-debug-native-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-debug-native",
+        "version": "0.1"
+      }
+    }
+  ]
+}

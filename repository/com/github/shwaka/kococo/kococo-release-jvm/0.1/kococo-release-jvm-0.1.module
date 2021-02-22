@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kococo-release/0.1/kococo-release-0.1.module",
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-release",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ri3exxvwyff7bbpbpe7cj3zyqa"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-release-jvm-0.1.jar",
+          "url": "kococo-release-jvm-0.1.jar",
+          "size": 1617,
+          "sha512": "251c5b8b56bcd08cc6ec60e8aa63dd675004fd5fcc593201f0474d709f332483ac6707db43858eefd61d0d873833c2ffd2f24248a2e7c9b34db6832e5b4bac61",
+          "sha256": "31bf894d183500b84eb54ecdecc4a6135944bfaf437bb0f37176dfc6971c3903",
+          "sha1": "065728e62ffa630108c3445afb556fc9e0f9b62d",
+          "md5": "1211e5a5983f427a6c783efee4afb3bc"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-release-jvm-0.1.jar",
+          "url": "kococo-release-jvm-0.1.jar",
+          "size": 1617,
+          "sha512": "251c5b8b56bcd08cc6ec60e8aa63dd675004fd5fcc593201f0474d709f332483ac6707db43858eefd61d0d873833c2ffd2f24248a2e7c9b34db6832e5b4bac61",
+          "sha256": "31bf894d183500b84eb54ecdecc4a6135944bfaf437bb0f37176dfc6971c3903",
+          "sha1": "065728e62ffa630108c3445afb556fc9e0f9b62d",
+          "md5": "1211e5a5983f427a6c783efee4afb3bc"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kococo-release-metadata/0.1/kococo-release-metadata-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-release-metadata",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kococo-release-metadata/0.1/kococo-release-metadata-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-release-metadata",
+        "version": "0.1"
+      }
+    }
+  ]
+}

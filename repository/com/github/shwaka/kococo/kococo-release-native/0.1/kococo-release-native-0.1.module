@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kococo-release/0.1/kococo-release-0.1.module",
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-release",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ri3exxvwyff7bbpbpe7cj3zyqa"
+    }
+  },
+  "variants": [
+    {
+      "name": "native-api",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-release.klib",
+          "url": "kococo-release-native-0.1.klib",
+          "size": 5322,
+          "sha512": "acade90515027fe46436ecd0c9edf5f70412843d927b3bb6adbdeab9fdeb71a1675139b2ffe3a6ea53b75498b0d64c9dfa7653564f3da76bc3ee19ffe4d1232d",
+          "sha256": "891d85109e2bd5a1ad71f4ec003fdd91a7df8d638c5eca4431987cded0217934",
+          "sha1": "4019cf7e1ccb78da0eb099c36b604f076dc7d36b",
+          "md5": "3b210b0d6a4e44a3ce7766f0bd176ee4"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kococo-release-metadata/0.1/kococo-release-metadata-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-release-metadata",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kococo-release-metadata/0.1/kococo-release-metadata-0.1.module",
+        "group": "com.github.shwaka.kococo",
+        "module": "kococo-release-metadata",
+        "version": "0.1"
+      }
+    }
+  ]
+}

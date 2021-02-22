@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kococo-release-native/0.1/kococo-release-native-0.1.module",
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-release-native",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ri3exxvwyff7bbpbpe7cj3zyqa"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-release-metadata-0.1-all.jar",
+          "url": "kococo-release-metadata-0.1-all.jar",
+          "size": 3716,
+          "sha512": "768050be8f5e663555546b742fdaf597193d033c7d901611487b03fa8a8576c117ed298d7f76d33d43acb7241a6250e00fc7fb15f89da4c24abf58c72b4501f7",
+          "sha256": "fb0b476fa8fa493ca05a921950a3fa66f843d9a1cb4aca73ce7c75ec631acdfb",
+          "sha1": "65846810e714d5cd968c6bc8bb7810c7f51a4465",
+          "md5": "694e6ed9e86a6e4af395d49e9c106e9a"
+        }
+      ]
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-release-metadata-0.1.jar",
+          "url": "kococo-release-metadata-0.1.jar",
+          "size": 1206,
+          "sha512": "e8d8a45667f35015dfbde1224db55dd74626bd33ccc8406fa42683e1412b2347fac5e74f66ecdf7274ab005f93c388f385485f103dec09d4e0701f1392100ce7",
+          "sha256": "826be8a0b10f771a69ff18da94297ad32677e577a321f863ed2bde392db734ba",
+          "sha1": "bf56233ac3b0da8ec2da39468eea12a0c3303be5",
+          "md5": "223518411f1df72cc747247d2ace4671"
+        }
+      ]
+    }
+  ]
+}
