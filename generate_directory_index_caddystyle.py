@@ -2,14 +2,14 @@
 # ---
 # Copyright 2020 glowinthedark
 #
-# Licensed under the Apache License, Version 2.0 (the "License"); 
-# you may not use this file except in compliance with the License. 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
 #
 # You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 #
-# Unless required by applicable law or agreed to in writing, 
-# software distributed under the License is distributed on an "AS IS" BASIS, 
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #
 # See the License for the specific language governing permissions and limitations under the License.
 # ---
@@ -57,45 +57,45 @@ def process_dir(top_dir, opts):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
     * { padding: 0; margin: 0; }
-    
+
     body {
         font-family: sans-serif;
         text-rendering: optimizespeed;
         background-color: #ffffff;
     }
-    
+
     a {
         color: #006ed3;
         text-decoration: none;
     }
-    
+
     a:hover,
     h1 a:hover {
         color: #319cff;
     }
-    
+
     header,
     #summary {
         padding-left: 5%;
         padding-right: 5%;
     }
-    
+
     th:first-child,
     td:first-child {
         width: 5%;
     }
-    
+
     th:last-child,
     td:last-child {
         width: 5%;
     }
-    
+
     header {
         padding-top: 25px;
         padding-bottom: 15px;
         background-color: #f2f2f2;
     }
-    
+
     h1 {
         font-size: 20px;
         font-weight: normal;
@@ -104,24 +104,24 @@ def process_dir(top_dir, opts):
         text-overflow: ellipsis;
         color: #999;
     }
-    
+
     h1 a {
         color: #000;
         margin: 0 4px;
     }
-    
+
     h1 a:hover {
         text-decoration: underline;
     }
-    
+
     h1 a:first-child {
         margin: 0;
     }
-    
+
     main {
         display: block;
     }
-    
+
     .meta {
         font-size: 12px;
         font-family: Verdana, sans-serif;
@@ -129,79 +129,79 @@ def process_dir(top_dir, opts):
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
+
     .meta-item {
         margin-right: 1em;
     }
-    
+
     #filter {
         padding: 4px;
         border: 1px solid #CCC;
     }
-    
+
     table {
         width: 100%;
         border-collapse: collapse;
     }
-    
+
     tr {
         border-bottom: 1px dashed #dadada;
     }
-    
+
     tbody tr:hover {
         background-color: #ffffec;
     }
-    
+
     th,
     td {
         text-align: left;
         padding: 10px 0;
     }
-    
+
     th {
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 16px;
         white-space: nowrap;
     }
-    
+
     th a {
         color: black;
     }
-    
+
     th svg {
         vertical-align: middle;
     }
-    
+
     td {
         white-space: nowrap;
         font-size: 14px;
     }
-    
+
     td:nth-child(2) {
         width: 80%;
     }
-    
+
     td:nth-child(3) {
         padding: 0 20px 0 20px;
     }
-    
+
     th:nth-child(4),
     td:nth-child(4) {
         text-align: right;
     }
-    
+
     td:nth-child(2) svg {
         position: absolute;
     }
-    
+
     td .name {
         margin-left: 1.75em;
         word-break: break-all;
         overflow-wrap: break-word;
         white-space: pre-wrap;
     }
-    
+
     td .goup {
         margin-left: 1.75em;
         padding: 0;
@@ -209,45 +209,45 @@ def process_dir(top_dir, opts):
         overflow-wrap: break-word;
         white-space: pre-wrap;
     }
-    
+
     .icon {
         margin-right: 5px;
     }
-    
-    tr.clickable { 
-        cursor: pointer; 
-    } 
-    tr.clickable a { 
-        display: block; 
-    } 
-    
+
+    tr.clickable {
+        cursor: pointer;
+    }
+    tr.clickable a {
+        display: block;
+    }
+
     @media (max-width: 600px) {
-    
+
         * {
             font-size: 1.06rem;
         }
         .hideable {
             display: none;
         }
-    
+
         td:nth-child(2) {
             width: auto;
         }
-    
+
         th:nth-child(3),
         td:nth-child(3) {
             padding-right: 5%;
             text-align: right;
         }
-    
+
         h1 {
             color: #000;
         }
-    
+
         h1 a {
             margin: 0;
         }
-    
+
         #filter {
             max-width: 100px;
         }
@@ -356,18 +356,19 @@ def process_dir(top_dir, opts):
             if entry.is_dir() or entry.is_file():
                 last_modified = datetime.datetime.fromtimestamp(entry.stat().st_mtime).replace(microsecond=0)
                 last_modified_iso = last_modified.isoformat()
-                last_modified_human_readable = last_modified.strftime("%c")
+                # last_modified_human_readable = last_modified.strftime("%c")
+                last_modified_human_readable = last_modified.strftime("%Y-%m-%d %H:%M:%S")  # changed from the original
 
         except Exception as e:
             print('ERROR accessing file name:', e, entry)
             continue
 
         entry_path = str(entry.name)
-        
+
         if entry.is_dir() and not entry.is_symlink():
             entry_type = 'folder'
             entry_path = os.path.join(entry.name, '')
-            
+
         elif entry.is_dir() and entry.is_symlink():
             entry_type = 'folder-shortcut'
             print('dir-symlink', entry.absolute())
@@ -398,7 +399,7 @@ def process_dir(top_dir, opts):
             </tbody>
         </table>
     </div>
-</main>        
+</main>
 </body>
 </html>""")
     if index_file:
