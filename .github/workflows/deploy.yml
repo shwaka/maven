@@ -12,6 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      fetch-depth: 0 # all history
     - name: set file times
       run: bash git-set-file-times.sh
     - name: generate index.html
