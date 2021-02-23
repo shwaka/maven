@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: set file times
+      run: perl git-set-file-times.pl
     - name: generate index.html
       run: python3 generate_directory_index_caddystyle.py -r repository
     - name: deploy
