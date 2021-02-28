@@ -14,4 +14,4 @@ dependencies {
 
 ## Generate index.html for all directories
 [Generate directory index](https://gist.github.com/glowinthedark/625eb4caeca12c5aa52778a3b4b0adb4)
-`python generate_directory_index_caddystyle.py -r docs`
+`python generate_directory_index_caddystyle.py -r repository`
