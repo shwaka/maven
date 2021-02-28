@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# https://www.shigemk2.com/entry/git.timestamp
+
 set -eu
 
 for FILE in `find repository`; do
