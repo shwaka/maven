@@ -333,9 +333,6 @@ def process_dir(top_dir, opts):
         if entry.name.lower() == index_file_name.lower():
             continue
 
-        if entry.is_dir() and opts.recursive:
-            process_dir(entry, opts)
-
         # From Python 3.6, os.access() accepts path-like objects
         if (not entry.is_symlink()) and not os.access(str(entry), os.W_OK):
             print(f"*** WARNING *** entry {entry.absolute()} is not writable! SKIPPING!")
@@ -362,6 +359,11 @@ def process_dir(top_dir, opts):
         except Exception as e:
             print('ERROR accessing file name:', e, entry)
             continue
+
+        if entry.is_dir() and opts.recursive:
+            # 先に mtime を取得する必要があるので，ここに移動した
+            # process_dir すると，index.html を生成してディレクトリの mtime が更新されてしまう
+            process_dir(entry, opts)
 
         entry_path = str(entry.name)
 
