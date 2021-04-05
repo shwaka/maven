@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../testlib/1.0/testlib-1.0.module",
+    "group": "com.github.shwaka.testlib",
+    "module": "testlib",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "v4blvucbnvdkbbjh7gvfvui75i"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.ionspin.kotlin",
+          "module": "bignum",
+          "version": {
+            "requires": "0.2.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testlib.klib",
+          "url": "testlib-native-1.0.klib",
+          "size": 5596,
+          "sha512": "2d13190caaed4ebc075f7eee8d75647830db8e096af3803cc98c94b50515bee69bb6d0176f5965268eed3b244769686656a52ef515ed515d23a3f805730cbc3d",
+          "sha256": "f039cae04e66f3f43fbfc587b2b9e53550082ab1271e45a6654e5e09a77be998",
+          "sha1": "b764437f3b6afa6d861960449fbd5b1267b48d65",
+          "md5": "39a649018d83d7051ebe9010de82ffc6"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../testlib/1.0/testlib-1.0.module",
+        "group": "com.github.shwaka.testlib",
+        "module": "testlib",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../testlib/1.0/testlib-1.0.module",
+        "group": "com.github.shwaka.testlib",
+        "module": "testlib",
+        "version": "1.0"
+      }
+    }
+  ]
+}
