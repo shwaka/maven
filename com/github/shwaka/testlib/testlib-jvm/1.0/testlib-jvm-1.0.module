@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../testlib/1.0/testlib-1.0.module",
+    "group": "com.github.shwaka.testlib",
+    "module": "testlib",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "v4blvucbnvdkbbjh7gvfvui75i"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testlib-jvm-1.0.jar",
+          "url": "testlib-jvm-1.0.jar",
+          "size": 1759,
+          "sha512": "dcadf7d8d4f28b66b0cad8a9d4cf66c37df6acc30aa77de0a39a4e793d7976878f28972ac95577a11fa42cdce875ed17583a898fd0074f5651ce9b48bff9f1e3",
+          "sha256": "680fe42b879dfcc4aff9613f5740c0c865364a66b76938c9b0efb46e72ca5390",
+          "sha1": "9be788686cabfc5e739175561297690b4b42e7a7",
+          "md5": "4065d57d0672a6eb12d8dc48fd382ed2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.ionspin.kotlin",
+          "module": "bignum",
+          "version": {
+            "requires": "0.2.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testlib-jvm-1.0.jar",
+          "url": "testlib-jvm-1.0.jar",
+          "size": 1759,
+          "sha512": "dcadf7d8d4f28b66b0cad8a9d4cf66c37df6acc30aa77de0a39a4e793d7976878f28972ac95577a11fa42cdce875ed17583a898fd0074f5651ce9b48bff9f1e3",
+          "sha256": "680fe42b879dfcc4aff9613f5740c0c865364a66b76938c9b0efb46e72ca5390",
+          "sha1": "9be788686cabfc5e739175561297690b4b42e7a7",
+          "md5": "4065d57d0672a6eb12d8dc48fd382ed2"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../testlib/1.0/testlib-1.0.module",
+        "group": "com.github.shwaka.testlib",
+        "module": "testlib",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../testlib/1.0/testlib-1.0.module",
+        "group": "com.github.shwaka.testlib",
+        "module": "testlib",
+        "version": "1.0"
+      }
+    }
+  ]
+}
