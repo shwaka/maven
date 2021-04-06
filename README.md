@@ -1,4 +1,4 @@
-[published page](https://shwaka.github.io/maven/)
+[published page](https://shwaka.github.io/maven/com/github/shwaka/)
 
 ## Usage
 In `build.gradle.kts`:
