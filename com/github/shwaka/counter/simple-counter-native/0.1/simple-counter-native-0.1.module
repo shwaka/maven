@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../simple-counter/0.1/simple-counter-0.1.module",
+    "group": "com.github.shwaka.counter",
+    "module": "simple-counter",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "4oqd2ffklvbejajnzvuxlgq65m"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simple-counter.klib",
+          "url": "simple-counter-native-0.1.klib",
+          "size": 8630,
+          "sha512": "4bbb7067095d409aa683ab2b0c7c27f16c28c6c0b6808c398fc22a3523760fa937817a91ab1029d3acd71a1ca7f28a4e1184e02c090e244cf5e2938adab865de",
+          "sha256": "7dc9a44fff090cba1820986006f25cafc93dca960e175be9665e38452716108f",
+          "sha1": "e265a171702348f9b4dac96a6aac4e4b6887f066",
+          "md5": "ad21ff380b6974773178cc8c2b6ecc96"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../simple-counter/0.1/simple-counter-0.1.module",
+        "group": "com.github.shwaka.counter",
+        "module": "simple-counter",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../simple-counter/0.1/simple-counter-0.1.module",
+        "group": "com.github.shwaka.counter",
+        "module": "simple-counter",
+        "version": "0.1"
+      }
+    }
+  ]
+}
