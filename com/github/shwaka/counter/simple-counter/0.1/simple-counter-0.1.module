@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "4oqd2ffklvbejajnzvuxlgq65m"
+      "buildId": "zaao2suwlbbi5iwc76kwhyiknu"
     }
   },
   "variants": [
@@ -34,11 +34,11 @@
         {
           "name": "simple-counter-metadata-0.1-all.jar",
           "url": "simple-counter-0.1-all.jar",
-          "size": 3969,
-          "sha512": "7859ca651719a3978c1600f693fac59d1f9a747fc509c64ee24a72b1899e5f8a10c93c3405a5856347c745a9459c12033d45c32df349c1480fb015307079fc25",
-          "sha256": "8fe55c17019f212b01577fa4c768e41ec444819389752ae8147f606514dee956",
-          "sha1": "003d20cbee16be6d0e29c556827bb5c2b268798a",
-          "md5": "fe114a1a0dd75d0d2b1eb14a09c08aac"
+          "size": 3981,
+          "sha512": "c3e4829c7669742241506941069b2660bece55a7c71aa8636cf1ce9a240fbd4ee8fb97ee973f2139b7af7b121ab9b980ff19211997c0029b94597aae11bbdb46",
+          "sha256": "a4f4dbee6181e286a9074124ee0cf20e6313952a758ba30cc8a03e706657fe4e",
+          "sha1": "a72a2b07a505a2d8b3f8887d87bff5ae53133eb1",
+          "md5": "645d22699ed40015e2a7e1105fb1161e"
         }
       ]
     },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "jsApiElements-published",
+      "name": "jsLegacyApiElements-published",
       "attributes": {
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.js.compiler": "legacy",
@@ -84,10 +84,38 @@
       }
     },
     {
-      "name": "jsRuntimeElements-published",
+      "name": "jsLegacyRuntimeElements-published",
       "attributes": {
         "org.gradle.usage": "kotlin-runtime",
         "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../simple-counter-js/0.1/simple-counter-js-0.1.module",
+        "group": "com.github.shwaka.counter",
+        "module": "simple-counter-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../simple-counter-js/0.1/simple-counter-js-0.1.module",
+        "group": "com.github.shwaka.counter",
+        "module": "simple-counter-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {

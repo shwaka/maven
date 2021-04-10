@@ -12,12 +12,12 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "4oqd2ffklvbejajnzvuxlgq65m"
+      "buildId": "zaao2suwlbbi5iwc76kwhyiknu"
     }
   },
   "variants": [
     {
-      "name": "jsApiElements-published",
+      "name": "jsLegacyApiElements-published",
       "attributes": {
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.js.compiler": "legacy",
@@ -41,18 +41,18 @@
       ],
       "files": [
         {
-          "name": "simple-counter-js-0.1.jar",
+          "name": "simple-counter-jslegacy-0.1.jar",
           "url": "simple-counter-js-0.1.jar",
-          "size": 24229,
-          "sha512": "ba78f50d552451f06868ac596cce9cbddb374f8ae5c5df94eab71cfa9a01b798fec26bfa83738bb256480ee668323410d84b95975b7ef81cfd20c8843875cdab",
-          "sha256": "acba1ac8f3e40005bc7de49e74da2b337568604af8f0db0ad2d157ffdea569b1",
-          "sha1": "e7a08e629541a5c9e859b2c32b3bf6033a965721",
-          "md5": "c4e7f2b187be7e20527a61a1aba985de"
+          "size": 24417,
+          "sha512": "23a60c906b9c3be85f3dc536a3593346fb89705ff62d2a2a53c15f9ded468f9b09e4439f862fb2d32e83e3aeeb3cad51eccf197cd926cc78b095820c0687b49a",
+          "sha256": "d7336d600edb4a2551f1184d8d4e565b2ad30c974ea1604e42fd7a738e734e9f",
+          "sha1": "4d3c842c55be0d9fc4dc00f25af143d93990642b",
+          "md5": "37a02686d6c2806522c9822d97d48a4b"
         }
       ]
     },
     {
-      "name": "jsRuntimeElements-published",
+      "name": "jsLegacyRuntimeElements-published",
       "attributes": {
         "org.gradle.usage": "kotlin-runtime",
         "org.jetbrains.kotlin.js.compiler": "legacy",
@@ -76,13 +76,83 @@
       ],
       "files": [
         {
-          "name": "simple-counter-js-0.1.jar",
+          "name": "simple-counter-jslegacy-0.1.jar",
           "url": "simple-counter-js-0.1.jar",
-          "size": 24229,
-          "sha512": "ba78f50d552451f06868ac596cce9cbddb374f8ae5c5df94eab71cfa9a01b798fec26bfa83738bb256480ee668323410d84b95975b7ef81cfd20c8843875cdab",
-          "sha256": "acba1ac8f3e40005bc7de49e74da2b337568604af8f0db0ad2d157ffdea569b1",
-          "sha1": "e7a08e629541a5c9e859b2c32b3bf6033a965721",
-          "md5": "c4e7f2b187be7e20527a61a1aba985de"
+          "size": 24417,
+          "sha512": "23a60c906b9c3be85f3dc536a3593346fb89705ff62d2a2a53c15f9ded468f9b09e4439f862fb2d32e83e3aeeb3cad51eccf197cd926cc78b095820c0687b49a",
+          "sha256": "d7336d600edb4a2551f1184d8d4e565b2ad30c974ea1604e42fd7a738e734e9f",
+          "sha1": "4d3c842c55be0d9fc4dc00f25af143d93990642b",
+          "md5": "37a02686d6c2806522c9822d97d48a4b"
+        }
+      ]
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simple-counter-jsir-0.1.klib",
+          "url": "simple-counter-js-0.1.klib",
+          "size": 6129,
+          "sha512": "075e5a97c7a30aed05b6e6e6686edfa724626032fbb194ac2d84b563c15be2a838a7393bd73e98b0a9dadc51ff421d81d918cf5c216fac672756e33e195dbb3d",
+          "sha256": "1f22aff57b0caaae8f5dd4b5cf9bdd714dd8096261429b618c4e6d8875fad6ef",
+          "sha1": "006bac32470baffd800f689c4b6cff99320d829c",
+          "md5": "3524e0e8179aceffed3219c74dc7de65"
+        }
+      ]
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simple-counter-jsir-0.1.klib",
+          "url": "simple-counter-js-0.1.klib",
+          "size": 6129,
+          "sha512": "075e5a97c7a30aed05b6e6e6686edfa724626032fbb194ac2d84b563c15be2a838a7393bd73e98b0a9dadc51ff421d81d918cf5c216fac672756e33e195dbb3d",
+          "sha256": "1f22aff57b0caaae8f5dd4b5cf9bdd714dd8096261429b618c4e6d8875fad6ef",
+          "sha1": "006bac32470baffd800f689c4b6cff99320d829c",
+          "md5": "3524e0e8179aceffed3219c74dc7de65"
         }
       ]
     },
