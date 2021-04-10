@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../simple-counter/0.2/simple-counter-0.2.module",
+    "group": "com.github.shwaka.counter",
+    "module": "simple-counter",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "2rdkvuop2rbwtdcr3vt4a3phe4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simple-counter-jvm-0.2.jar",
+          "url": "simple-counter-jvm-0.2.jar",
+          "size": 5460,
+          "sha512": "70fb00cb683395e904023ed3d13591d5fec1dcae5bb83f62cd44e4a75fa20b5f26d6cda5c6e93a574c9c5962b7787387ba5f10c167ce841c822d7e045cf56273",
+          "sha256": "fc9623f8154b2a2100adfe36fcd2c5cb1d75187a12c516bee585a79f787060f6",
+          "sha1": "b23499e2069792b5b374c6d692f7db39ac7de70f",
+          "md5": "0bdb63b71ec1e3183b018ce12b9a0472"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simple-counter-jvm-0.2.jar",
+          "url": "simple-counter-jvm-0.2.jar",
+          "size": 5460,
+          "sha512": "70fb00cb683395e904023ed3d13591d5fec1dcae5bb83f62cd44e4a75fa20b5f26d6cda5c6e93a574c9c5962b7787387ba5f10c167ce841c822d7e045cf56273",
+          "sha256": "fc9623f8154b2a2100adfe36fcd2c5cb1d75187a12c516bee585a79f787060f6",
+          "sha1": "b23499e2069792b5b374c6d692f7db39ac7de70f",
+          "md5": "0bdb63b71ec1e3183b018ce12b9a0472"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../simple-counter/0.2/simple-counter-0.2.module",
+        "group": "com.github.shwaka.counter",
+        "module": "simple-counter",
+        "version": "0.2"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../simple-counter/0.2/simple-counter-0.2.module",
+        "group": "com.github.shwaka.counter",
+        "module": "simple-counter",
+        "version": "0.2"
+      }
+    }
+  ]
+}
