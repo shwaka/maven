@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.adarshr.test-logger</groupId>
+  <artifactId>com.adarshr.test-logger.gradle.plugin</artifactId>
+  <versioning>
+    <latest>3.0.1-SNAPSHOT</latest>
+    <versions>
+      <version>3.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210421063050</lastUpdated>
+  </versioning>
+</metadata>
