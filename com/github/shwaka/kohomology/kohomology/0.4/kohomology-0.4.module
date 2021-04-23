@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.shwaka.kohomology",
+    "module": "kohomology",
+    "version": "0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "675ax42srra6rdnm7t5hswvrpq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kohomology-metadata-0.4-all.jar",
+          "url": "kohomology-0.4-all.jar",
+          "size": 33684,
+          "sha512": "a4d95ea9f8f749a73e67717ef1fb8b816f05bc209986bfd3869dfd9489ef0530ab77acf8e393d5d4921ffd17088125c28b7852ceef0abf48eea077958abc50bd",
+          "sha256": "119c9b5ec011899cee632df7fef6bef432435d048c2e15a7b2dc0d2c7aac7c6a",
+          "sha1": "4377b87b70295c09eca4b2469e6a84a57417ee91",
+          "md5": "ba579114f263e0106ef7e7986e6aa3b4"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kohomology-0.4.jar",
+          "url": "kohomology-0.4.jar",
+          "size": 88557,
+          "sha512": "e8baccf9d653cb2e81af21520cbb1240d95cc1c92ff84c07f6a488beaf4a6e961f80190cef1fd0b9450fbf9547b35c19375f35ba8073481fbebd112c4ea7a6cb",
+          "sha256": "de3b1638f7b8cf3843e015f94a58d9404b379cfed121c1b21e2d207db3da899f",
+          "sha1": "0b950fefb4a7b0dbe1e13d8f1c6bc3d42adc2b98",
+          "md5": "ea56a866223f0c123e43f3d9400f5d0b"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kohomology-js/0.4/kohomology-js-0.4.module",
+        "group": "com.github.shwaka.kohomology",
+        "module": "kohomology-js",
+        "version": "0.4"
+      }
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kohomology-js/0.4/kohomology-js-0.4.module",
+        "group": "com.github.shwaka.kohomology",
+        "module": "kohomology-js",
+        "version": "0.4"
+      }
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kohomology-js/0.4/kohomology-js-0.4.module",
+        "group": "com.github.shwaka.kohomology",
+        "module": "kohomology-js",
+        "version": "0.4"
+      }
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kohomology-js/0.4/kohomology-js-0.4.module",
+        "group": "com.github.shwaka.kohomology",
+        "module": "kohomology-js",
+        "version": "0.4"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kohomology-jvm/0.4/kohomology-jvm-0.4.module",
+        "group": "com.github.shwaka.kohomology",
+        "module": "kohomology-jvm",
+        "version": "0.4"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kohomology-jvm/0.4/kohomology-jvm-0.4.module",
+        "group": "com.github.shwaka.kohomology",
+        "module": "kohomology-jvm",
+        "version": "0.4"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kohomology-native/0.4/kohomology-native-0.4.module",
+        "group": "com.github.shwaka.kohomology",
+        "module": "kohomology-native",
+        "version": "0.4"
+      }
+    }
+  ]
+}
