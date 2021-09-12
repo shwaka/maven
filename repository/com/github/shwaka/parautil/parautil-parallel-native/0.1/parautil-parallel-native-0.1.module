@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../parautil-parallel/0.1/parautil-parallel-0.1.module",
+    "group": "com.github.shwaka.parautil",
+    "module": "parautil-parallel",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "amjqf3k25fa7jfqwsgctmdsvwe"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "parautil-parallel.klib",
+          "url": "parautil-parallel-native-0.1.klib",
+          "size": 5904,
+          "sha512": "8e41746286993cd0561413349647838fa219f58ccb257c33f0c573eef4be3132ed83c3afb3d67936d3dcdbd69c7f2a8c0d10c6913c1933a576ff79fba5eb9eca",
+          "sha256": "67ff74f3ffcc4f2b917b3b58764c70d119fa66a322a84f731f9abb283261ea62",
+          "sha1": "02f8401d6ee1cfdfa8b3995cacb1cd61d3290ad5",
+          "md5": "91ec72ad6fff3b27b2254de521a4d11a"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel/0.1/parautil-parallel-0.1.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel/0.1/parautil-parallel-0.1.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel",
+        "version": "0.1"
+      }
+    }
+  ]
+}
