@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "vkxs7dku7vbefgwnl3o2noj5t4"
+      "buildId": "amjqf3k25fa7jfqwsgctmdsvwe"
     }
   },
   "variants": [
@@ -36,11 +36,11 @@
         {
           "name": "parautil-parallel-jslegacy-0.1.jar",
           "url": "parautil-parallel-js-0.1.jar",
-          "size": 17106,
-          "sha512": "077878df5c22d973fb79a30e9c0870ee57d574efce5587b154e369b5d0bc1b5cd25b07478e573c372ce061a1dd8086c08468f566a458d4aa92842bf48814145c",
-          "sha256": "96edd8e2add23ad9421601140b5f62837c7bd4c11aebc4fba1c8c76bf75b8a39",
-          "sha1": "1df36f36142d626655082c72ce843014a73ee377",
-          "md5": "a9c108d25a635a8321f4bf528fdcfa9b"
+          "size": 17210,
+          "sha512": "1d046a7b8924b0d509718552ea57029c1d29f4fa68386e8880a0753284513299c9b198ce53cfebf516dd8b800c7b9bec90bc9594a3eb292bb1c0c9c2b4df32d6",
+          "sha256": "1983dd7dec7992b5d3ec90b481f1b3755f88c40834f43e50ccc2253df62f4fdb",
+          "sha1": "e2b1ce0bb83d784dc74ade991a20651b924f5ba2",
+          "md5": "25b22f70e5337d860745612036bd5730"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "parautil-parallel-jslegacy-0.1.jar",
           "url": "parautil-parallel-js-0.1.jar",
-          "size": 17106,
-          "sha512": "077878df5c22d973fb79a30e9c0870ee57d574efce5587b154e369b5d0bc1b5cd25b07478e573c372ce061a1dd8086c08468f566a458d4aa92842bf48814145c",
-          "sha256": "96edd8e2add23ad9421601140b5f62837c7bd4c11aebc4fba1c8c76bf75b8a39",
-          "sha1": "1df36f36142d626655082c72ce843014a73ee377",
-          "md5": "a9c108d25a635a8321f4bf528fdcfa9b"
+          "size": 17210,
+          "sha512": "1d046a7b8924b0d509718552ea57029c1d29f4fa68386e8880a0753284513299c9b198ce53cfebf516dd8b800c7b9bec90bc9594a3eb292bb1c0c9c2b4df32d6",
+          "sha256": "1983dd7dec7992b5d3ec90b481f1b3755f88c40834f43e50ccc2253df62f4fdb",
+          "sha1": "e2b1ce0bb83d784dc74ade991a20651b924f5ba2",
+          "md5": "25b22f70e5337d860745612036bd5730"
         }
       ]
     },
@@ -120,11 +120,11 @@
         {
           "name": "parautil-parallel-jsir-0.1.klib",
           "url": "parautil-parallel-js-0.1.klib",
-          "size": 3739,
-          "sha512": "ad1bbafb64a709c0bd685ab771dae8efeb48a01197dce7bf1b62721feb7e646ce88bf97b81347f8ce17c3901cc90a05401d6d09255554303f9399b8e97e9958f",
-          "sha256": "56a7c31862535b3f165fdbb5fc59649df5feb548728f5f44f8745aa392086ea5",
-          "sha1": "b131c1f7eeb614c417a48e8f37267f721f3ee42e",
-          "md5": "c2553eb8f653d6d66d7fd5e28358e91d"
+          "size": 3620,
+          "sha512": "e3d3959381c76737edd9b6f3e73664b2273d1e5bb2f4225c382ad22dbdbd4162bd0b14810538cf678110ce31c35d6afc5ade4770b2522f8b66658b7941741055",
+          "sha256": "8c6ca2cd063ccabb64da3358f279a7534d7c0fc87b2f89e618a4bfc44490178d",
+          "sha1": "30b8c1482b26d300de4331b3abb518de420db026",
+          "md5": "4b7085807d7c7b467309e4bf1d931b0d"
         }
       ]
     },
@@ -162,11 +162,11 @@
         {
           "name": "parautil-parallel-jsir-0.1.klib",
           "url": "parautil-parallel-js-0.1.klib",
-          "size": 3739,
-          "sha512": "ad1bbafb64a709c0bd685ab771dae8efeb48a01197dce7bf1b62721feb7e646ce88bf97b81347f8ce17c3901cc90a05401d6d09255554303f9399b8e97e9958f",
-          "sha256": "56a7c31862535b3f165fdbb5fc59649df5feb548728f5f44f8745aa392086ea5",
-          "sha1": "b131c1f7eeb614c417a48e8f37267f721f3ee42e",
-          "md5": "c2553eb8f653d6d66d7fd5e28358e91d"
+          "size": 3620,
+          "sha512": "e3d3959381c76737edd9b6f3e73664b2273d1e5bb2f4225c382ad22dbdbd4162bd0b14810538cf678110ce31c35d6afc5ade4770b2522f8b66658b7941741055",
+          "sha256": "8c6ca2cd063ccabb64da3358f279a7534d7c0fc87b2f89e618a4bfc44490178d",
+          "sha1": "30b8c1482b26d300de4331b3abb518de420db026",
+          "md5": "4b7085807d7c7b467309e4bf1d931b0d"
         }
       ]
     },
