@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.shwaka.parautil",
+    "module": "parautil-parallel",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "cy7c3tt6jnfe7fpp7yhqriuzq4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "parautil-parallel-metadata-0.2-all.jar",
+          "url": "parautil-parallel-0.2-all.jar",
+          "size": 3894,
+          "sha512": "b7d03c5a670535e62e65fcd458b3eb3cc172616b1c6ff86f36454ef1de4a8e6970d12bfff6be2eb8fc29cc847be9fa08314c48ba4525ff0b5a29b4e1ae1a8685",
+          "sha256": "ee0ad5bfdedb66b92e68986ac8fd4d313c40bcf79004962a5061650813ccfea2",
+          "sha1": "1518365277af4b0f053998c10f92555aab36fd5a",
+          "md5": "007b8dcbe521e4c03f87743a7b3aadea"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "parautil-parallel-0.2.jar",
+          "url": "parautil-parallel-0.2.jar",
+          "size": 1426,
+          "sha512": "495c8b0184c08b25a6df633347601cb658048f2e47d570a0c49726690ee91cf85eefda50580509ec654b4738ec801d3010f8cba343cf63053500c1cdc5eafe15",
+          "sha256": "7edfaeaa50d740715a8dd112b547c149af6058692dd5ce01c1565232e20d9b0b",
+          "sha1": "8acb629c5ef2e1fdbcf7124ad6c53c5abc416f66",
+          "md5": "270260e086ad5697236759f0f8c041c5"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel-js/0.2/parautil-parallel-js-0.2.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel-js",
+        "version": "0.2"
+      }
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel-js/0.2/parautil-parallel-js-0.2.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel-js",
+        "version": "0.2"
+      }
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel-js/0.2/parautil-parallel-js-0.2.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel-js",
+        "version": "0.2"
+      }
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel-js/0.2/parautil-parallel-js-0.2.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel-js",
+        "version": "0.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel-jvm/0.2/parautil-parallel-jvm-0.2.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel-jvm",
+        "version": "0.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel-jvm/0.2/parautil-parallel-jvm-0.2.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel-jvm",
+        "version": "0.2"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../parautil-parallel-native/0.2/parautil-parallel-native-0.2.module",
+        "group": "com.github.shwaka.parautil",
+        "module": "parautil-parallel-native",
+        "version": "0.2"
+      }
+    }
+  ]
+}
