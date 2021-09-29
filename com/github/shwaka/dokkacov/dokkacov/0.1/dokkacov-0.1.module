@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.shwaka.dokkacov",
+    "module": "dokkacov",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "nwad64rtpndefnmxvu63kejimi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 10,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "dokkacov-0.1.jar",
+          "url": "dokkacov-0.1.jar",
+          "size": 36795,
+          "sha512": "5aa32020264eac89c12ed495bac861e1d45e6267e6743999d28262d5172b29b36ae93b731a0a979bc26f97eb1075f6a17592331e93a20eb49ce99466f1d6adae",
+          "sha256": "8dd44c301b9ab216be01fda7b036b88640025e1504d9e906d3f4b093c378dd92",
+          "sha1": "f2299aa6b76e2506647467e6865f7df64ee3519b",
+          "md5": "92d53f14d63499348121c2af4bf92f65"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 10,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dokkacov-0.1.jar",
+          "url": "dokkacov-0.1.jar",
+          "size": 36795,
+          "sha512": "5aa32020264eac89c12ed495bac861e1d45e6267e6743999d28262d5172b29b36ae93b731a0a979bc26f97eb1075f6a17592331e93a20eb49ce99466f1d6adae",
+          "sha256": "8dd44c301b9ab216be01fda7b036b88640025e1504d9e906d3f4b093c378dd92",
+          "sha1": "f2299aa6b76e2506647467e6865f7df64ee3519b",
+          "md5": "92d53f14d63499348121c2af4bf92f65"
+        }
+      ]
+    }
+  ]
+}
