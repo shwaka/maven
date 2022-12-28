@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.shun",
+    "module": "kotex",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-metadata-0.1-all.jar",
+          "url": "kotex-0.1-all.jar",
+          "size": 4962,
+          "sha512": "88441ffb565f30173e37e75bb92df02b0042b33677a1a1a375c8857057455f41eb4ec17f0e4081ffc99272ecee1c845c493ed4486a4e526ce9b84ada56165dbd",
+          "sha256": "1155302c18fbffcbe5449335f08fbb82e4d50bb370e4d1816b8fa8632375c927",
+          "sha1": "bd8f875ccd5991fc0b7b1aba6177c7fa0b7b45d5",
+          "md5": "acc945cd97cf8eb5438b77078bcfd550"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-0.1.jar",
+          "url": "kotex-0.1.jar",
+          "size": 6414,
+          "sha512": "7e2f224325cfa6eafec82bcfa447f6969a8469df2166fdada1b258dc112e35be54979fcfdd24bf765949bdd7aeaf97df66da6f1fa7e1a7cc8a6ef7292c7ad31c",
+          "sha256": "def2f53571486f560fdf2273cf9c1c8cecd8f97b8943a96b5535f32cabaec2f0",
+          "sha1": "a07ced5380b3d75d121e64f8f828bea64a6a3bcc",
+          "md5": "dd02b6ee0d5cf192e9c9e058ecc183bb"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotex-js/0.1/kotex-js-0.1.module",
+        "group": "me.shun",
+        "module": "kotex-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotex-js/0.1/kotex-js-0.1.module",
+        "group": "me.shun",
+        "module": "kotex-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotex-jvm/0.1/kotex-jvm-0.1.module",
+        "group": "me.shun",
+        "module": "kotex-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotex-jvm/0.1/kotex-jvm-0.1.module",
+        "group": "me.shun",
+        "module": "kotex-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotex-native/0.1/kotex-native-0.1.module",
+        "group": "me.shun",
+        "module": "kotex-native",
+        "version": "0.1"
+      }
+    }
+  ]
+}
