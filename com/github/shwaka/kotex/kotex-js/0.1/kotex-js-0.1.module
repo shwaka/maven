@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotex/0.1/kotex-0.1.module",
+    "group": "com.github.shwaka.kotex",
+    "module": "kotex",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.5.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-js-0.1.jar",
+          "url": "kotex-js-0.1.jar",
+          "size": 27873,
+          "sha512": "ea7f9a3c45ceddc13bfd8a3e8bf52d1c655fabf636a027fb5a015239593d4e8cd42c166f085a039b7f5bfa13155a72f58f6e06e38d79b20e02b0a8271b6025af",
+          "sha256": "e5430d12d77ad2e4142b206ada5acb3c4ef1c460286aeb983a2aeed78adf71b6",
+          "sha1": "658432dec7b3a34b066ac7aaaeead4330855cbd3",
+          "md5": "d04baf554f1f1d2c6b73cd95f839ec9e"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.5.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-js-0.1.jar",
+          "url": "kotex-js-0.1.jar",
+          "size": 27873,
+          "sha512": "ea7f9a3c45ceddc13bfd8a3e8bf52d1c655fabf636a027fb5a015239593d4e8cd42c166f085a039b7f5bfa13155a72f58f6e06e38d79b20e02b0a8271b6025af",
+          "sha256": "e5430d12d77ad2e4142b206ada5acb3c4ef1c460286aeb983a2aeed78adf71b6",
+          "sha1": "658432dec7b3a34b066ac7aaaeead4330855cbd3",
+          "md5": "d04baf554f1f1d2c6b73cd95f839ec9e"
+        }
+      ]
+    }
+  ]
+}

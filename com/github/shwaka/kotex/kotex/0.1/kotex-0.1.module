@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.shwaka.kotex",
+    "module": "kotex",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-metadata-0.1-all.jar",
+          "url": "kotex-0.1-all.jar",
+          "size": 4962,
+          "sha512": "e329594b74761c3a078bdf36c128775847643cc2a40f9e64bd22646eeb73b34e25bb324d18456855ef7697fdd6a2efdd5a7d5055eba76688f3703ef0b7e9ff05",
+          "sha256": "d418416982f5f0bbcab6a2d8d25685e7ce8d3b6c8dbc2a4694b625aab115e218",
+          "sha1": "d73104977ed8b9a233491f99b061113b70fb35aa",
+          "md5": "e1f2a720371dbb406601f63a1577f374"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-0.1.jar",
+          "url": "kotex-0.1.jar",
+          "size": 6414,
+          "sha512": "68c8d8cbf9b172f3809d776b1b78e3424b824a539e2178666748eb9c7baa8f2bf1f2e4b2ecc12e5b4d8f1d466bb340ca8e77c6730886ae24547793d9c82a1a36",
+          "sha256": "a7039619ca29f3c0f5fbc046e71666c27b98a631eb356d6bf82616e65f49326b",
+          "sha1": "c510b0450a2b57831084daf23ebe3f7307c9294e",
+          "md5": "f08614d8f2d71674add52bc3d4493b0d"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotex-js/0.1/kotex-js-0.1.module",
+        "group": "com.github.shwaka.kotex",
+        "module": "kotex-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotex-js/0.1/kotex-js-0.1.module",
+        "group": "com.github.shwaka.kotex",
+        "module": "kotex-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotex-jvm/0.1/kotex-jvm-0.1.module",
+        "group": "com.github.shwaka.kotex",
+        "module": "kotex-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kotex-jvm/0.1/kotex-jvm-0.1.module",
+        "group": "com.github.shwaka.kotex",
+        "module": "kotex-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kotex-native/0.1/kotex-native-0.1.module",
+        "group": "com.github.shwaka.kotex",
+        "module": "kotex-native",
+        "version": "0.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotex/0.1/kotex-0.1.module",
+    "group": "com.github.shwaka.kotex",
+    "module": "kotex",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex.klib",
+          "url": "kotex-native-0.1.klib",
+          "size": 18301,
+          "sha512": "82661d63e13e09fae49da1e8e5e90e631c25390e9abc093b75b59f686513393b430ca2445d7984c4bc604258d11ccacea5a93f74e4f2c275749085e331d36f95",
+          "sha256": "5cddc5be5c38a7184b43618f0bf26c1fd4859cd608fe5bccb0dc540776ef8ac3",
+          "sha1": "669b2e487794f0d987b5f16852327702aab3b09e",
+          "md5": "d14db8780069b95446f976303894a732"
+        }
+      ]
+    }
+  ]
+}
