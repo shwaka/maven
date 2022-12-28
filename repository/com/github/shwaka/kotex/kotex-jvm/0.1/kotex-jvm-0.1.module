@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotex/0.1/kotex-0.1.module",
+    "group": "com.github.shwaka.kotex",
+    "module": "kotex",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-jvm-0.1.jar",
+          "url": "kotex-jvm-0.1.jar",
+          "size": 33641,
+          "sha512": "a067a081b1a91babe67e01e1e44fc44eabbd2e8246a27ffec7ae51232cfa04cd5523bd6ce89d9048f07bd5071cefc06b2333cf561c605dc474480a6c20cc6214",
+          "sha256": "eebca141b3927919064ae7895e0b82febf0d1ffed0b921be6d1626c008050c41",
+          "sha1": "7f76b71614a0d6ad43696e78dac2dfe3cdbe468d",
+          "md5": "c114208a2ec6e93d0aa51dc4efa5b082"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotex-jvm-0.1.jar",
+          "url": "kotex-jvm-0.1.jar",
+          "size": 33641,
+          "sha512": "a067a081b1a91babe67e01e1e44fc44eabbd2e8246a27ffec7ae51232cfa04cd5523bd6ce89d9048f07bd5071cefc06b2333cf561c605dc474480a6c20cc6214",
+          "sha256": "eebca141b3927919064ae7895e0b82febf0d1ffed0b921be6d1626c008050c41",
+          "sha1": "7f76b71614a0d6ad43696e78dac2dfe3cdbe468d",
+          "md5": "c114208a2ec6e93d0aa51dc4efa5b082"
+        }
+      ]
+    }
+  ]
+}
