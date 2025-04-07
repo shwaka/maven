@@ -20,7 +20,8 @@ jobs:
     - name: generate index.html
       run: python3 generate_directory_index_caddystyle.py -r repository
     - name: deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
-        deploy_key: ${{ secrets. ACTIONS_DEPLOY_KEY }}
+        # deploy_key: ${{ secrets. ACTIONS_DEPLOY_KEY }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./repository
