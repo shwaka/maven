@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kohomology/0.13/kohomology-0.13.module",
+    "group": "com.github.shwaka.kohomology",
+    "module": "kohomology",
+    "version": "0.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kohomology-jvm-0.13.jar",
+          "url": "kohomology-jvm-0.13.jar",
+          "size": 2562855,
+          "sha512": "40462e55b7645278c0644b1947c49b2f181c1bcb946bbacefe0e4e420adbf53918438ecef7b25b476cb43bda3270c821e6f1a770081ccf2be11683a710ec169c",
+          "sha256": "7e53cd36670fbc4abc2e9fb0f3fa22b48923e7a9a66bf0ed5f40eb97b3cd64b6",
+          "sha1": "94fc397f765615a2fc8896a3b15974d4a264666a",
+          "md5": "46cb0f2c2d89de2577269f87da2fc7d0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "com.ionspin.kotlin",
+          "module": "bignum",
+          "version": {
+            "requires": "0.2.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.shwaka.kococo",
+          "module": "kococo-release",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "com.github.shwaka.counter",
+          "module": "simple-counter",
+          "version": {
+            "requires": "0.2"
+          }
+        },
+        {
+          "group": "com.github.h0tk3y.betterParse",
+          "module": "better-parse",
+          "version": {
+            "requires": "0.4.2"
+          }
+        },
+        {
+          "group": "com.github.shwaka.parautil",
+          "module": "parautil-parallel",
+          "version": {
+            "requires": "0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kohomology-jvm-0.13.jar",
+          "url": "kohomology-jvm-0.13.jar",
+          "size": 2562855,
+          "sha512": "40462e55b7645278c0644b1947c49b2f181c1bcb946bbacefe0e4e420adbf53918438ecef7b25b476cb43bda3270c821e6f1a770081ccf2be11683a710ec169c",
+          "sha256": "7e53cd36670fbc4abc2e9fb0f3fa22b48923e7a9a66bf0ed5f40eb97b3cd64b6",
+          "sha1": "94fc397f765615a2fc8896a3b15974d4a264666a",
+          "md5": "46cb0f2c2d89de2577269f87da2fc7d0"
+        }
+      ]
+    }
+  ]
+}
