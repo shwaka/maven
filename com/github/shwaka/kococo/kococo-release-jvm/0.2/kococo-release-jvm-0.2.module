@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kococo-release/0.2/kococo-release-0.2.module",
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-release",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-release-jvm-0.2.jar",
+          "url": "kococo-release-jvm-0.2.jar",
+          "size": 1615,
+          "sha512": "735ac681b93ec4562a97a535b719ab5886ee760c1bfacfbd731f21695f31d260c200310b0bec46c5e3519c4abd3308a4d9bf5d43e295c95055c2fc75f26f68b8",
+          "sha256": "1b2b51b6f081414a29a4f7a9dd3e2633c63db1d58ca913ca438cf3244d37e23d",
+          "sha1": "ff14940d6d29119c3aa2c76901c42ce78ee8e8b9",
+          "md5": "b37c52efdb97b2285e13dd33da70b59e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-release-jvm-0.2.jar",
+          "url": "kococo-release-jvm-0.2.jar",
+          "size": 1615,
+          "sha512": "735ac681b93ec4562a97a535b719ab5886ee760c1bfacfbd731f21695f31d260c200310b0bec46c5e3519c4abd3308a4d9bf5d43e295c95055c2fc75f26f68b8",
+          "sha256": "1b2b51b6f081414a29a4f7a9dd3e2633c63db1d58ca913ca438cf3244d37e23d",
+          "sha1": "ff14940d6d29119c3aa2c76901c42ce78ee8e8b9",
+          "md5": "b37c52efdb97b2285e13dd33da70b59e"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kococo-release-jvm-0.2-sources.jar",
+          "url": "kococo-release-jvm-0.2-sources.jar",
+          "size": 578,
+          "sha512": "039612bd496dc68989a67b35b7af49763bd0c4c6daa2650ded030e4a8381816af9c7d7256ea88ef33667e33852b36b48a0089de2d5a5aa975a657ed74844e7ff",
+          "sha256": "53aec6c24d244663dadb7c654b9adc288df99c400e159641253601a85c403daa",
+          "sha1": "0292369f0406d61b35b1254e6e83d4ba9de2abfb",
+          "md5": "1de412991dda44f20f2c284628b601f2"
+        }
+      ]
+    }
+  ]
+}

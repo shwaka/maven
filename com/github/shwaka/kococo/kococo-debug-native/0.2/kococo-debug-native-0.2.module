@@ -1,0 +1,71 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kococo-debug/0.2/kococo-debug-0.2.module",
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-debug",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-debug.klib",
+          "url": "kococo-debug-native-0.2.klib",
+          "size": 5449,
+          "sha512": "46dfbbbc9ccc3450e73c9d20f3438e6f617c94bc4c69bdae5b7fc41313a7fa2069a21d01c7b1ebfa5430dcc7920f961f92efe66af29f2dd93b3a8187f940da96",
+          "sha256": "9032df11bfb6a5def660567b3a8d8f546a00de3218f04aed85fa5d13c54f83bd",
+          "sha1": "885d3d2a66f203d4483d70e4ca62e1fae6080137",
+          "md5": "273ec39b92d1a8562a437d851ca62d3e"
+        }
+      ]
+    },
+    {
+      "name": "nativeSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kococo-debug-native-0.2-sources.jar",
+          "url": "kococo-debug-native-0.2-sources.jar",
+          "size": 556,
+          "sha512": "5619406db31fe030e4b48022e09ad8dd9e211012ecf689ce4e9474fa57acc4d7f1c9dc7ff6a4c61ab0dea661be6fed484d0c9cb11eafaae2e4dae62556427048",
+          "sha256": "c3d362ff76f34b2a3cbfcad9acf8ab1af9aebc37aa2d6f090242e7045f3d83b3",
+          "sha1": "65a46aa47f64868c9b9898e3bbfca3c018844238",
+          "md5": "6a2604c9ddbd1c7a6dfa177a129d3adc"
+        }
+      ]
+    }
+  ]
+}
