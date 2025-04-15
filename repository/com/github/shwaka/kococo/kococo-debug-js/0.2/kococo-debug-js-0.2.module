@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kococo-debug/0.2/kococo-debug-0.2.module",
+    "group": "com.github.shwaka.kococo",
+    "module": "kococo-debug",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-debug-js-0.2.klib",
+          "url": "kococo-debug-js-0.2.klib",
+          "size": 3033,
+          "sha512": "28a3861816ce1cf3a2d406e3f953f5fa4c029c0f9a6c2c2723669522768646c8f2204ce2530abc04e93e609175e11a231c7c43b5e76033298b0af043459a1f83",
+          "sha256": "07fd85a38eb091a197a07e37e85fe73352a97f747697d5d146605ccf1d4b291f",
+          "sha1": "357798dfc6a5b2db5e22d401ee6220e876b7539d",
+          "md5": "4356d630af7eac4733dc9b28725bc768"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kococo-debug-js-0.2.klib",
+          "url": "kococo-debug-js-0.2.klib",
+          "size": 3033,
+          "sha512": "28a3861816ce1cf3a2d406e3f953f5fa4c029c0f9a6c2c2723669522768646c8f2204ce2530abc04e93e609175e11a231c7c43b5e76033298b0af043459a1f83",
+          "sha256": "07fd85a38eb091a197a07e37e85fe73352a97f747697d5d146605ccf1d4b291f",
+          "sha1": "357798dfc6a5b2db5e22d401ee6220e876b7539d",
+          "md5": "4356d630af7eac4733dc9b28725bc768"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kococo-debug-js-0.2-sources.jar",
+          "url": "kococo-debug-js-0.2-sources.jar",
+          "size": 556,
+          "sha512": "5619406db31fe030e4b48022e09ad8dd9e211012ecf689ce4e9474fa57acc4d7f1c9dc7ff6a4c61ab0dea661be6fed484d0c9cb11eafaae2e4dae62556427048",
+          "sha256": "c3d362ff76f34b2a3cbfcad9acf8ab1af9aebc37aa2d6f090242e7045f3d83b3",
+          "sha1": "65a46aa47f64868c9b9898e3bbfca3c018844238",
+          "md5": "6a2604c9ddbd1c7a6dfa177a129d3adc"
+        }
+      ]
+    }
+  ]
+}
