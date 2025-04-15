@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.6.1",
-      "buildId": "3kcua64d7fclhelwtxr7e6eecm"
+      "buildId": "oihpmjuen5d6rlqsaveqwct6su"
     }
   },
   "variants": [
@@ -36,10 +36,10 @@
           "name": "kococo-debug-metadata-0.1-all.jar",
           "url": "kococo-debug-metadata-0.1-all.jar",
           "size": 3714,
-          "sha512": "c0cf45216051c06f895cddf4502552ab13b22307ec7f2ad43a7e602a5085a3055ea596ac7c5021e200c7dade6f6bbb99bf2ce8788c3dd350f325cd7a42a7077f",
-          "sha256": "282f1ca7d0d3753a13f12efee47fc77ae3674e14641d024e74dcd6fdaf652e75",
-          "sha1": "acaad04e6a6eea773f45e4a6d329086d74d0deeb",
-          "md5": "2846b636667fb3641308f6723dedc5a6"
+          "sha512": "e3ec471c3bb23b9b78df52ce5965d7762078e8145c8310f970e0a994c51397f3632bd7217de2c6bd353601906ecac2acc31ac3c5e2295d18bd0ef70635c17e93",
+          "sha256": "d0c09d395e1b03b9667b708e03505630c0e763675cec1182e29e14bef31fbe3e",
+          "sha1": "01fd7ac18ff1c0bdf42c23567400af071b85af90",
+          "md5": "ef903ca95bd2c6b35ff4a744dd7e337e"
         }
       ]
     },
@@ -63,10 +63,10 @@
           "name": "kococo-debug-metadata-0.1.jar",
           "url": "kococo-debug-metadata-0.1.jar",
           "size": 1202,
-          "sha512": "f37155f74c2c301c7d607d5cbfe814123972d1248e1024f933d523d78d7d2e4d8200db0efc923194f6ed50c10ab1ae531f29f69275d91e3ae032c5a2235de5e8",
-          "sha256": "706cb3ca0165bdb8cdcdf020be7ea1a87f1e9b05b23c66438088601ed84eb3a7",
-          "sha1": "8dfe52ea26d12d6b28f47757adcc1ac39f82ea7b",
-          "md5": "5ddd49654d49346932636e1278e65bd7"
+          "sha512": "d3a19d3de9573d01cc2037d182a85aef03fd2a24729da33801a827a701c356dbff770fc422f063fab46cdd12e571aa089b68e72b68a3ffd9071acd62de408817",
+          "sha256": "78800652172f424248254146aeef0c440099427ea46f5b7720e81177d5e8851d",
+          "sha1": "7475c93e6544033b01cc3104e87cd3966a3d05e2",
+          "md5": "95e6119d2ee116025eb8362fec5780da"
         }
       ]
     }

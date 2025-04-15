@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.6.1",
-      "buildId": "ri3exxvwyff7bbpbpe7cj3zyqa"
+      "buildId": "y5wcifjiunac3hakjkowrfxxna"
     }
   },
   "variants": [
@@ -37,11 +37,11 @@
         {
           "name": "kococo-release.klib",
           "url": "kococo-release-native-0.1.klib",
-          "size": 5322,
-          "sha512": "acade90515027fe46436ecd0c9edf5f70412843d927b3bb6adbdeab9fdeb71a1675139b2ffe3a6ea53b75498b0d64c9dfa7653564f3da76bc3ee19ffe4d1232d",
-          "sha256": "891d85109e2bd5a1ad71f4ec003fdd91a7df8d638c5eca4431987cded0217934",
-          "sha1": "4019cf7e1ccb78da0eb099c36b604f076dc7d36b",
-          "md5": "3b210b0d6a4e44a3ce7766f0bd176ee4"
+          "size": 5323,
+          "sha512": "b70781749649e8719ad422ed4656007fdb6bf648309cdd1960e97eba0a10e4397c5d9867c8c2d9fd637eaf2a2f111726095f94b35260b6b569934c906cb0cd87",
+          "sha256": "a2d8d61dc879ce5d5dd3e8c880f981f342f86cb6b13b2096b6fcc17e22cde8b8",
+          "sha1": "8c0a86e84a6d2a690f231cb0aa844e936cdefd52",
+          "md5": "29f8485d992d550dfb67c920a029ea5f"
         }
       ]
     },

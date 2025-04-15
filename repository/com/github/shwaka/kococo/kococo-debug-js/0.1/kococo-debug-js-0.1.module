@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.6.1",
-      "buildId": "3kcua64d7fclhelwtxr7e6eecm"
+      "buildId": "oihpmjuen5d6rlqsaveqwct6su"
     }
   },
   "variants": [
@@ -44,10 +44,10 @@
           "name": "kococo-debug-jslegacy-0.1.jar",
           "url": "kococo-debug-js-0.1.jar",
           "size": 2681,
-          "sha512": "358452da15a195947db36db53f7425511ad516167bb36e39ab17e72a4cdc840d3cbf83708b55430fd74b2893b5aea8c3f4331703d25868887473929da6a77ef9",
-          "sha256": "3cd564d3e33afa7b627ee9ec6d1bbd4be451b5a79a3eca1dd2a73c86831f201f",
-          "sha1": "490ead9aefb7d3485a7bfdae4181525ee4559234",
-          "md5": "1932b8baecc006b8f32833aa8a77185d"
+          "sha512": "8a72394452512cb15c68948cbf109ca076fd428f34b945f8faf7f91f721e4d62c7657398cd2181adbada41bf2b4621a515e14d5d58b0581a2c92d5019042a13d",
+          "sha256": "87f3342587cdf1b08775c6230fcec2e6ddbf909688d5f3b9570579760a3bbb39",
+          "sha1": "29416d35f480d99ecb2a234f040f123a89140fe8",
+          "md5": "56538ade703863b4795df916b4d881c0"
         }
       ]
     },
@@ -79,10 +79,10 @@
           "name": "kococo-debug-jslegacy-0.1.jar",
           "url": "kococo-debug-js-0.1.jar",
           "size": 2681,
-          "sha512": "358452da15a195947db36db53f7425511ad516167bb36e39ab17e72a4cdc840d3cbf83708b55430fd74b2893b5aea8c3f4331703d25868887473929da6a77ef9",
-          "sha256": "3cd564d3e33afa7b627ee9ec6d1bbd4be451b5a79a3eca1dd2a73c86831f201f",
-          "sha1": "490ead9aefb7d3485a7bfdae4181525ee4559234",
-          "md5": "1932b8baecc006b8f32833aa8a77185d"
+          "sha512": "8a72394452512cb15c68948cbf109ca076fd428f34b945f8faf7f91f721e4d62c7657398cd2181adbada41bf2b4621a515e14d5d58b0581a2c92d5019042a13d",
+          "sha256": "87f3342587cdf1b08775c6230fcec2e6ddbf909688d5f3b9570579760a3bbb39",
+          "sha1": "29416d35f480d99ecb2a234f040f123a89140fe8",
+          "md5": "56538ade703863b4795df916b4d881c0"
         }
       ]
     },
@@ -114,10 +114,10 @@
           "name": "kococo-debug-jsir-0.1.klib",
           "url": "kococo-debug-js-0.1.klib",
           "size": 2788,
-          "sha512": "750cd5702bf9e77920739a641f8cbb5c7726785354b309aed4ba9011895f81e6498fe3cb973f1c50a75d2002dbaa18f33a805ddaa07f013f1e3b17c993445537",
-          "sha256": "83dab02e6d7d96eb7ede53323658021d9005e1bdca66765948fa3fd3c7a8b4d6",
-          "sha1": "23678e2c85489c1617459a7462d127df00a0eb03",
-          "md5": "41fef8c3d34c80808414a57a1f33e344"
+          "sha512": "6a09935778aab9325e6f67e6f39fa76e739f435151e010ee4741e8209d4704cb20ff2b677d7ba63ad37c0a590fba110af670a6694e32f802f347e8576e6e309c",
+          "sha256": "e25bf071241145f11e6f0ae50cf99bdbebdf19fb424f6366940a0de0b4d41eef",
+          "sha1": "cc22bb882563592e63eb0c754b30397bd941796f",
+          "md5": "672268e60600ad65ac639e3fddf9e2e7"
         }
       ]
     },
@@ -149,10 +149,10 @@
           "name": "kococo-debug-jsir-0.1.klib",
           "url": "kococo-debug-js-0.1.klib",
           "size": 2788,
-          "sha512": "750cd5702bf9e77920739a641f8cbb5c7726785354b309aed4ba9011895f81e6498fe3cb973f1c50a75d2002dbaa18f33a805ddaa07f013f1e3b17c993445537",
-          "sha256": "83dab02e6d7d96eb7ede53323658021d9005e1bdca66765948fa3fd3c7a8b4d6",
-          "sha1": "23678e2c85489c1617459a7462d127df00a0eb03",
-          "md5": "41fef8c3d34c80808414a57a1f33e344"
+          "sha512": "6a09935778aab9325e6f67e6f39fa76e739f435151e010ee4741e8209d4704cb20ff2b677d7ba63ad37c0a590fba110af670a6694e32f802f347e8576e6e309c",
+          "sha256": "e25bf071241145f11e6f0ae50cf99bdbebdf19fb424f6366940a0de0b4d41eef",
+          "sha1": "cc22bb882563592e63eb0c754b30397bd941796f",
+          "md5": "672268e60600ad65ac639e3fddf9e2e7"
         }
       ]
     },
