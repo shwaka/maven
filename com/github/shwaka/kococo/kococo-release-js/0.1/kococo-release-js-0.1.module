@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.6.1",
-      "buildId": "ri3exxvwyff7bbpbpe7cj3zyqa"
+      "buildId": "y5wcifjiunac3hakjkowrfxxna"
     }
   },
   "variants": [
@@ -44,10 +44,10 @@
           "name": "kococo-release-jslegacy-0.1.jar",
           "url": "kococo-release-js-0.1.jar",
           "size": 2678,
-          "sha512": "0640f23ae0133529904359518d3e483662240984e64af8053c0c0148da96589cffc82541364eb5b054666a512e7b328407605ec4d748ea83483976901ba776fd",
-          "sha256": "d18872f9c26df546ef27a075665ef4a305abe73b157e769a2923ff8cde0f84ab",
-          "sha1": "de6065e9c7e4e44fe1e736ff3eee8cdf5edae9f7",
-          "md5": "8edeea33f8bc2be9efe685c243fa0846"
+          "sha512": "ba0dfe1c6a197f46725769190a801fb968ca08d4508dadc1f7c5c3980cfae3789d97e091de141b13add5d77e9f855f245214a1446616fef6d8b5259c0f5a1ae8",
+          "sha256": "0147a767bf3490d1a1a28529aaa163d94bb60abc20ffe17f19d3b321774601f1",
+          "sha1": "13570d13fce760c991f509bc57d227706db160e7",
+          "md5": "7a880b43c88be2d077eded119c1859c3"
         }
       ]
     },
@@ -79,10 +79,10 @@
           "name": "kococo-release-jslegacy-0.1.jar",
           "url": "kococo-release-js-0.1.jar",
           "size": 2678,
-          "sha512": "0640f23ae0133529904359518d3e483662240984e64af8053c0c0148da96589cffc82541364eb5b054666a512e7b328407605ec4d748ea83483976901ba776fd",
-          "sha256": "d18872f9c26df546ef27a075665ef4a305abe73b157e769a2923ff8cde0f84ab",
-          "sha1": "de6065e9c7e4e44fe1e736ff3eee8cdf5edae9f7",
-          "md5": "8edeea33f8bc2be9efe685c243fa0846"
+          "sha512": "ba0dfe1c6a197f46725769190a801fb968ca08d4508dadc1f7c5c3980cfae3789d97e091de141b13add5d77e9f855f245214a1446616fef6d8b5259c0f5a1ae8",
+          "sha256": "0147a767bf3490d1a1a28529aaa163d94bb60abc20ffe17f19d3b321774601f1",
+          "sha1": "13570d13fce760c991f509bc57d227706db160e7",
+          "md5": "7a880b43c88be2d077eded119c1859c3"
         }
       ]
     },
@@ -114,10 +114,10 @@
           "name": "kococo-release-jsir-0.1.klib",
           "url": "kococo-release-js-0.1.klib",
           "size": 2821,
-          "sha512": "a2be03b73684c2dc0833f7be7857c59fd2516ea80f228e3ddbd82ed9ef63c34adea70a53280247d8e5112743ccf7d171cb0ba0ab18593386d9dbc03bbae24e58",
-          "sha256": "56a8d0c439ecf31bb04bd79bf48fda4595aedd848cf575da78c796979fbe0cc4",
-          "sha1": "10ec14f22a73098f2204a9da69615f23090ce4bd",
-          "md5": "cbfe732cd39f35b06b09145652adbe51"
+          "sha512": "bf7175d5aa49115bf111cb1667bec97e46a986a5c01cfff7be67c0033844494d5ed20911782eab100a7373968354c948729e887cb0438d909c09f914e4c9879e",
+          "sha256": "a6633743439500663345b6b206d2b227aef058464bab77bdd2f0beb6c168b39f",
+          "sha1": "c56b08198b13c375ee17359ab1dcefd6f80c0edb",
+          "md5": "9467a6ba2f84e666dc1452ccb6798966"
         }
       ]
     },
@@ -149,10 +149,10 @@
           "name": "kococo-release-jsir-0.1.klib",
           "url": "kococo-release-js-0.1.klib",
           "size": 2821,
-          "sha512": "a2be03b73684c2dc0833f7be7857c59fd2516ea80f228e3ddbd82ed9ef63c34adea70a53280247d8e5112743ccf7d171cb0ba0ab18593386d9dbc03bbae24e58",
-          "sha256": "56a8d0c439ecf31bb04bd79bf48fda4595aedd848cf575da78c796979fbe0cc4",
-          "sha1": "10ec14f22a73098f2204a9da69615f23090ce4bd",
-          "md5": "cbfe732cd39f35b06b09145652adbe51"
+          "sha512": "bf7175d5aa49115bf111cb1667bec97e46a986a5c01cfff7be67c0033844494d5ed20911782eab100a7373968354c948729e887cb0438d909c09f914e4c9879e",
+          "sha256": "a6633743439500663345b6b206d2b227aef058464bab77bdd2f0beb6c168b39f",
+          "sha1": "c56b08198b13c375ee17359ab1dcefd6f80c0edb",
+          "md5": "9467a6ba2f84e666dc1452ccb6798966"
         }
       ]
     },
